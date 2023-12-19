@@ -39,3 +39,68 @@
 .read-the-docs {
   color: #888;
 }
+
+.button-compoents-section {
+  display: flex;
+  width: 300px;
+}
+
+.button-components-section button {
+  width: 171.19px;
+  height: 50px;
+  padding: 0px 16px;
+  flex-shrink: 0;
+  margin: 0 12px;
+  margin-bottom: 12px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+
+button.primary {
+  background-color: hsl(226, 75%, 50%);
+}
+
+button.secondary {
+  background-color: hsl(206, 72%, 59%);
+}
+
+.alert-components-section {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert-box {
+  width: 650px;
+  height: 76px;
+  border-radius: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.alert-box img {
+  margin: 0 15px;
+}
+
+.alert-box.error {
+  background: hsl(0, 80%, 88%);
+}
+
+.alert-box.warning {
+  background: hsl(21, 80%, 88%);
+}
+
+.alert-box.info {
+  background: hsl(43, 80%, 88%);
+}
+
+.alert-box.success {
+  background: hsl(119, 72%, 89%);
+}
